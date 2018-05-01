@@ -1,0 +1,25 @@
+<html>
+
+    <head>
+      <title>Temp Converter</title>
+      <script type="text/javascript" src="tempscript.js"></script>
+      <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+    <body>
+        <form name="tempForm">
+            <label for="temp">Temperature:</label>
+            <input type="text" id="temp"><br>
+
+            <input type="radio" name="choice" value="fahrenheit" checked />Convert to Fahrenheit <br>
+            <input type="radio" name="choice" value="celsius">Convert to Celsius  <br>
+
+            <label for="resultField">Result: </label>
+            <input type="text" id="resultField"><br>
+
+            <input type="button" value="Convert" onclick="processForm()">
+        </form>
+        <a href='index.html'>Back to Main Page</a>
+    </body>
+
+</html>
